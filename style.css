@@ -1,0 +1,100 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+body{
+  background: #0C0B0B;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+}
+
+h1, h2, h3, p{
+  color: #B7B7B7;
+  font-family: 'Rubik', sans-serif;
+}
+
+main{ 
+ background-image: linear-gradient( transparent 4rem, #0F0E0E 4rem 100%) ;  
+}
+
+.personaInfo{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  grid-gap: 5px;
+
+ /*  margin: -4rem auto 2rem auto;  */
+  
+  width: 100vw;
+  text-align: center;
+}
+
+.personaInfo__myPic{
+  width: 6rem;
+  height: 6rem;
+
+  margin: 0 auto;
+
+  border-radius: 50%;
+}
+
+.personaInfo h1{
+  font-size: 1.2rem;
+  font-weight: bold;
+  
+}
+
+.personaInfo__edit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+
+  width: 5rem;
+  padding: .5rem;
+
+  border-radius: 5px;
+  border: none;
+  background: #1c1c1c;
+}
+
+.personaInfo__edit img{
+  width: 1.5rem;
+}
+
+.about{
+  margin: 10px auto 5px auto;
+}
+
+.about__list{
+  display: grid;
+  grid-template-columns: 1fr;  
+  grid-gap: 15px;
+  
+  width: 100vw;  
+}
+
+.about__item{
+  margin: 0 auto;
+  width: 13rem;
+  padding: .8rem;
+
+  border-radius: 5px;
+}
+
+.about__item p{
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.about__projects{
+  background: #046313;
+}
+
+.about__stars{
+  background: #044A7D;
+}
+
+.about__folowers{
+  background: #725200;
+}
